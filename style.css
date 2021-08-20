@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+body {
+    padding:30px;
+    background-color: #f2f2f2;
+}
+h4.title{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:#f2f2f2;
+    text-align: left;
+    font-style: italic;
+    font-weight: 900;
+}
+p.title-dev{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:#f2f2f2;
+    text-align: left;
+    font-style: italic;
+    font-weight: 800;
+}
+h4{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    text-align: left; 
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh !important;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+.right{
+    background-color:   #9900ff;
+    width: 40%;
+    color: #fff;
+    padding: 20px ;
+    height: 800px;
+}
+.left{
+    padding:20px;
+    text-align: justify;
+    background-color: #fff;
+    width: 60%;
+}
+p.date{
+    color:#9900ff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 10px 0;
+}
+p.not-date{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 10px 0;
+}
+p{ 
+    text-align: justify;
+    font-size: 1.1rem;
+}
+span.icons-contact{
+    width: 10px;
+    height: 10px;
+}
+ 
+.ul{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.ul li{
+    font-size: 1.1rem;
+
+}
+
+span{
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+p{ 
+    text-align: justify;
+    font-size: 1.1rem;
+} 
+.not-p{
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        display: block;
+        background-color: #fff;
+    }
+
+    .right{
+        background-color: #fff;
+        color: #000 !important;
+    }
+    h4.title{
+        color:#000;
+    }
+    p.title-dev{
+        color:#000;
+    }
+    p.not-date{
+        color:#000;
+    }
+}
+  
+
+
+
+
+
